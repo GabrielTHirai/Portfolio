@@ -4,62 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portfólio</title>
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__nav">
-            <ul class="cabecalho__ul">
-                <li class="cabecalho__lista"><a href="#sobre__mim" class="cabecalho__link">Sobre mim</a></li>
-                <li class="cabecalho__lista"><a href="#projetos" class="cabecalho__link">Projetos</a></li>
-                <li class="cabecalho__lista"><a href="#certificados" class="cabecalho__link">Certificados</a></li>
-                <li class="cabecalho__lista"><a href="#contato" class="cabecalho__link">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="cabecalho__nav">
+                <ul class="cabecalho__ul">
+                    <li class="cabecalho__li"><a href="#sobre__mim" class="cabecalho__link">Sobre mim</a></li>
+                    <li class="cabecalho__li"><a href="#experiencia" class="cabecalho__link">Experiência</a></li>
+                    <li class="cabecalho__li" ><a href="#projetos" class="cabecalho__link">Projetos</a></li>
+                    <li class="cabecalho__li"><a href="#formacao" class="cabecalho__link">Formação</a></li>
+                    <li class="cabecalho__li"><a href="#contato" class="cabecalho__link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="sobre__mim">
-        <h1 class="titulo__sobre--mim">Sobre Mim</h1>
+    <main class="conteudo__principal">
 
-        <p class="texto__sobre--mim" >
-            Aos 16 anos comecei aprender a programar, adquiri conhecimento em Java e Python, apaixonado por tecnologias,
-            resolvi continuar na parte de TI, e aos 17 anos ingressei em uma universidade. Inicialmente, comecei em uma universidade federal,
-            no curso de ciência da computação, porém não me identifiquei com o lugar e com a instituição, e resolvi mudar de universidade, 
-            para a que estou atualmente (Unisalesiano). 
-        </p>
-        <p class="texto__sobre--mim">
-            Junto à faculdade, faço curso na Alura, e foi lá que aprendi algumas linguagens e ferramentas que utilizo para programar.
-            Tenho foco em desenvolvimento com HTML, CSS, SASS, Typescript, Javascript, dentre outras tecnologias que utilizo para criações web. 
-            Além dessas linguagens, tenho conhecimento em Python, Java e C++.
-        </p>
-    </section>
+        <section class="apresentacao">
+            <h1>Seja bem vindo, me chamo Gabriel Hirai, e sou desenvolvedor front-end</h1>
+            <img src="./img/4136918.jpg" alt="Imagem de uma pessoa escrevendo no notebook">
+            <a href="http://www.freepik.com">Designed by stories / Freepik</a>
 
-    <section id="projetos">
-        <img src="./img/breve.jpg" alt="Imagem em breve">
-        <img src="./img/breve.jpg" alt="Imagem em breve">
-        <img src="./img/breve.jpg" alt="Imagem em breve">
-        <img src="./img/breve.jpg" alt="Imagem em breve">
-        <img src="./img/breve.jpg" alt="Imagem em breve">
-        <img src="./img/breve.jpg" alt="Imagem em breve">
-    </section>
-    <section id="certificados">
-        <h1 class="titulo__certificados">Certificados</h1>
+        </section>
 
-        <a href="https://cursos.alura.com.br/user/gabriel-hirai/degree-front-end-113709/certificate" class="link__certificados"><img src="./img/alura__logo.png" alt="Logo da Alura" class="imagem__certificado"></a>
-        <a href="https://cursos.alura.com.br/user/gabriel-hirai/course/typescript-evoluindo-javascript/certificate" class="link__certificados"><img src="./img/alura__logo.png" alt="Logo da Alura" class="imagem__certificado"></a>
-        <a href="https://cursos.alura.com.br/user/gabriel-hirai/course/git-github-repositorio-commit-versoes/certificate" class="link__certificados"><img src="./img/alura__logo.png" alt="Logo da Alura" class="imagem__certificado"></a>
-        <a href="https://cursos.alura.com.br/user/gabriel-hirai/course/java-primeiros-passos/certificate" class="link__certificados"><img src="./img/alura__logo.png" alt="Logo da Alura" class="imagem__certificado"></a>
-        <a href="https://cursos.alura.com.br/user/gabriel-hirai/course/javascritpt-orientacao-objetos/certificate" class="link__certificados"><img src="./img/alura__logo.png" alt="Logo da Alura" class="imagem__certificado"></a>
-        <a href="https://cursos.alura.com.br/user/gabriel-hirai/course/javascript-polimorfismo/certificate" class="link__certificados"><img src="./img/alura__logo.png" alt="Logo da Alura" class="imagem__certificado"></a>
-        <a href="https://cursos.alura.com.br/user/gabriel-hirai/course/javascript-introducao/certificate" class="link__certificados"><img src="./img/alura__logo.png" alt="Logo da Alura" class="imagem__certificado"></a>
-    </section>
-    <section id="contato">
-        <h1 class="titulo__contato">Contato</h1>
 
-        <p>Telefone: +55 (18)991462505</p>
-        <p>Email: gabrielt.hirai@gmail.com</p>
-        <p>Github: github.com/GabrielTHirai</p>
-        <p>Linkedin: linkedin.com/in/gabriel-hirai/</p>
-    </section>
+        <section id="sobre__mim">
+            <h1 class="titulo__sobre--mim">Sobre Mim</h1>
+            
+            <img src="#" alt="" class="imagem__sobre--mim">
+
+            <p class="texto__sobre--mim" >
+                Aos 16 anos comecei aprender a programar, adquiri conhecimento em Java e Python, apaixonado por tecnologias,
+                resolvi continuar na parte de TI, e aos 17 anos ingressei em uma universidade. Inicialmente, comecei em uma universidade federal,
+                no curso de ciência da computação, porém não me identifiquei com o lugar e com a instituição, e resolvi mudar de universidade, 
+                para a que estou atualmente (Unisalesiano). 
+            </p>
+            <p class="texto__sobre--mim">
+                Junto à faculdade, faço curso na Alura, e foi lá que aprendi algumas linguagens e ferramentas que utilizo para programar.
+                Tenho foco em desenvolvimento com HTML, CSS, SASS, Typescript, Javascript, dentre outras tecnologias que utilizo para criações web. 
+                Além dessas linguagens, tenho conhecimento em Python, Java e C++.
+            </p>
+        </section>
+        
+        <section id="experiencia">
+            <h1 class="titulo__experiencia">Experiência</h1>
+
+            <p class="texto__experiencia">Em busca de uma oportunidade de uma experiência profissional</p>
+        </section>
+
+        <section id="projetos">
+            <h1 class="titulo__projetos">Projetos</h1>
+
+            <h2 class="sub--titulo__projetos">Clique na imagem para acessar o projeto</h2>
+
+            <a href="https://gabrielthirai.github.io/HotelUnisalesiano/index.html" class="link__projetos"><img src="./img/unisalesiano__logo.png" alt="Unisalesiano logo" class="imagem__projetos"></a>
+            <a href="https://gabrielthirai.github.io/Sitesobreoflash/" class="link__projetos"><img src="./img/flash-1229898_widelg.jpg" alt="Imagem sobre o flash" class="imagem__projetos"></a>
+            
+        </section>
+        <section id="formacao">
+            <h1 class="titulo__formacao">Formação</h1>
+            
+            <h2 class="sub--titulo__formacao">Graduação em Análise e desenvolvimento de sistemas - Unisalesiano</h2>
+            <p class="texto__formacao">Graduação tecnólogo, com duração de 3 anos. Inicio em 2022, 
+                formação prevista para dez/2024. Curso de período noturno.
+            </p>
+            <p class="texto__formacao">Atualmente estou no segundo semestre, terminando o primeiro com notas excelentes</p>
+
+            <h2 class="sub--titulo__formacao">Curso de programação - Alura </h2>
+            <p class="texto__formacao">Curso de programação pela alura, realizei cursos voltados para front-end</p>
+            <p class="texto__formacao">Exemplos: HTML5, CSS3, Javascript, Typescript, SASS.</p>
+            <p class="texto__formacao">Pretendo continuar com o curso, adquirindo conhecimento no back-end também e em outras linguagens front-end</p>
+
+        </section>
+        <section id="contato">
+            <h1 class="titulo__contato">Contato</h1>
+    
+            <p>Telefone: +55 (18)991462505</p>
+            <p>Email: gabrielt.hirai@gmail.com</p>
+            <a href="github.com/gabrielthirai">Github</a>
+            <a href="linkedin.com/in/gabriel-hirai/">Linkedin</a>
+        </section>
+    </main>
+
+    <footer class="rodape">
+
+    </footer>
 </body>
 </html>
