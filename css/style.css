@@ -1,52 +1,81 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
+.cabecalho {
+  background-color: #0080FF;
+  padding: 1.5rem 2rem;
 }
-
-body {
-  line-height: 1;
+.cabecalho .container {
+  display: flex;
+  justify-content: space-between;
 }
-
-ol, ul {
+.cabecalho .container .imagem__cabecalho {
+  width: 4.5%;
+}
+.cabecalho .container .cabecalho__nav .cabecalho__ul {
+  display: flex;
+}
+.cabecalho .container .cabecalho__nav .cabecalho__ul .cabecalho__li {
   list-style: none;
 }
-
-blockquote, q {
-  quotes: none;
+.cabecalho .container .cabecalho__nav .cabecalho__ul .cabecalho__li .cabecalho__link {
+  text-decoration: none;
+  margin: 1rem;
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.cabecalho .container .cabecalho__nav .cabecalho__ul .cabecalho__li .cabecalho__link:hover {
+  color: #000000;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
-  content: none;
+.conteudo__principal {
+  background-color: #F3F3F3;
 }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.conteudo__principal .apresentacao {
+  display: flex;
+  padding: 5rem;
+}
+.conteudo__principal .apresentacao .titulo__apresentacao {
+  flex-wrap: wrap;
+  font-size: 3rem;
+  font-family: cursive;
+}
+.conteudo__principal .apresentacao .imagem__apresentacao {
+  width: 35%;
+}
+.conteudo__principal #sobre__mim .titulo__sobre--mim {
+  text-align: center;
+  font-size: 3rem;
+  font-family: cursive;
+  margin-bottom: 2rem;
+}
+.conteudo__principal #sobre__mim .imagem__sobre--mim {
+  float: left;
+  width: 17%;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+.conteudo__principal #sobre__mim .texto__sobre--mim {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: cursive;
+}
+.conteudo__principal #experiencia {
+  clear: left;
+}
+.conteudo__principal #experiencia .titulo__experiencia {
+  font-size: 3rem;
+  font-family: cursive;
+  text-align: center;
+}
+.conteudo__principal #experiencia .texto__experiencia {
+  font-size: 1.5rem;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 1rem;
 }/*# sourceMappingURL=style.css.map */

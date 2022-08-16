@@ -1,0 +1,52 @@
+@import '../abstract/variaveis';
+
+.conteudo__principal{
+    background-color: $cor-background;
+    .apresentacao{
+        display: flex;
+        padding: 5rem;
+        .titulo__apresentacao{
+            flex-wrap: wrap;
+            font-size: $tamanho-fonte-titulo;
+            font-family: $fonte;
+        }
+        .imagem__apresentacao{
+            width: 35%;
+        }
+    }
+    #sobre__mim{
+
+        .titulo__sobre--mim{       
+            text-align: center;
+            font-size: $tamanho-fonte-titulo;
+            font-family: $fonte;
+            margin-bottom: 2rem;
+        }
+        .imagem__sobre--mim{
+            float: left;
+            width: 17%;
+            margin-left: 1rem;
+            margin-right: 2rem;
+        }
+        .texto__sobre--mim{
+            font-size: $tamanho-fonte;
+            font-weight: bold;
+            font-family: $fonte;
+        }
+    }
+
+    #experiencia{
+        clear: left;
+        .titulo__experiencia{
+            font-size: $tamanho-fonte-titulo;
+            font-family: $fonte;
+            text-align: center;
+        }
+        .texto__experiencia{
+            font-size: $tamanho-fonte;
+            font-family: $fonte;
+            font-weight: bold;
+            padding: 1rem;
+        }
+    }
+}

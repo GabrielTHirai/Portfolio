@@ -1,2 +1,33 @@
 @import '../abstract/variaveis';
 
+.cabecalho{
+    background-color: $cor-principal;
+    padding: 1.5rem 2rem;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .imagem__cabecalho{
+            width: 4.5%;
+        }
+        .cabecalho__nav{
+
+            
+            .cabecalho__ul{
+                display: flex;
+                .cabecalho__li{
+                    list-style: none;
+                    .cabecalho__link{
+                        text-decoration: none;
+                        margin: 1rem;
+                        color: $cor-texto2;
+                        font-size: $tamanho-fonte;
+                        font-weight: bold;
+                        &:hover{
+                            color: $cor-texto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
