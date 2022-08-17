@@ -92,7 +92,10 @@ html, body {
 .conteudo__principal #projetos .row .card {
   border-radius: 5px;
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-  padding: 30px;
+  padding-top: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   margin: 5px;
   max-width: 400px;
   max-height: 400px;
