@@ -95,7 +95,7 @@ html, body {
   padding: 30px;
   margin: 5px;
   max-width: 400px;
-  max-height: 150px;
+  max-height: 400px;
   transition: all 0.3s ease-out;
 }
 .conteudo__principal #projetos .row .card:hover {
