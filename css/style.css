@@ -77,5 +77,104 @@ html, body {
   font-size: 1.5rem;
   font-family: cursive;
   font-weight: bold;
+  padding: 3rem 1rem;
+}
+.conteudo__principal #projetos .titulo__projetos {
+  text-align: center;
+  font-family: cursive;
+  font-size: 3rem;
+}
+.conteudo__principal #projetos .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo__principal #projetos .row .card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 5px;
+  width: 400px;
+  height: 120px;
+  transition: all 0.3s ease-out;
+}
+.conteudo__principal #projetos .row .card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.conteudo__principal #projetos .row .card .imagem__card {
+  float: right;
+  max-width: 60px;
+  max-height: 60px;
+}
+.conteudo__principal #projetos .row .card .titulo__card {
+  font-size: 1.5rem;
+  font-family: cursive;
+  font-weight: bold;
+}
+.conteudo__principal #projetos .row .card .texto__card {
+  font-family: cursive;
+}
+.conteudo__principal #projetos .row .card .link__card {
+  text-decoration: none;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  border: 2px solid #B61111;
+  font-family: cursive;
+  font-size: 20px;
+  background-color: #B61111;
+}
+.conteudo__principal #projetos .row .hotel, .conteudo__principal #projetos .row .aluramidi, .conteudo__principal #projetos .row .negociacoesTS, .conteudo__principal #projetos .row .flash {
+  border-left: 3px solid #B61111;
+}
+.conteudo__principal #formacao .titulo__formacao {
+  font-size: 1.5rem;
+  font-family: cursive;
+  text-align: center;
   padding: 1rem;
+}
+.conteudo__principal #formacao .sub--titulo__formacao {
+  font-size: 2rem;
+  font-family: cursive;
+  padding-left: 0.5rem;
+}
+.conteudo__principal #formacao .texto__formacao {
+  font-size: 1.5rem;
+  font-family: cursive;
+  padding-left: 2rem;
+}
+.conteudo__principal #contato .titulo__contato {
+  font-size: 3rem;
+  font-family: cursive;
+  text-align: center;
+}
+.conteudo__principal #contato .texto__contato {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+.conteudo__principal #contato .link__contato {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.rodape {
+  padding: 3rem;
+  background-color: #0080FF;
+  display: flex;
+  justify-content: space-around;
+}
+.rodape .imagem__rodape {
+  float: left;
+  width: 6%;
+}
+.rodape .copyright {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: cursive;
 }/*# sourceMappingURL=style.css.map */

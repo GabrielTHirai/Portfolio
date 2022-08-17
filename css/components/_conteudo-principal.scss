@@ -46,7 +46,105 @@
             font-size: $tamanho-fonte;
             font-family: $fonte;
             font-weight: bold;
+            padding: 3rem 1rem;
+        }
+    }
+
+
+
+    #projetos{
+        .titulo__projetos{
+            text-align: center;
+            font-family: $fonte;
+            font-size: $tamanho-fonte-titulo;
+        }
+
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .card{
+                border-radius: 5px;
+                box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+                padding: 30px;
+                margin: 5px;
+                width: 400px;
+                height: 120px;
+                transition: all 0.3s ease-out;
+                &:hover{
+                    transform: translateY(-5px);
+                    cursor: pointer;
+                }
+                .imagem__card{
+                    float: right;
+                    max-width: 60px;
+                    max-height: 60px;
+                }
+
+                .titulo__card{
+                    font-size: 1.5rem;
+                    font-family: $fonte;
+                    font-weight: bold;
+                }
+                .texto__card{
+                    font-family: $fonte;
+                }
+                .link__card{
+                    text-decoration: none;
+                    color: $cor-texto2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: .2rem;
+                    border: 2px solid $card-red;
+                    font-family: $fonte;
+                    font-size: 20px;
+                    background-color: $card-red;
+                }
+            }
+            .hotel,.aluramidi,.negociacoesTS,.flash{
+                border-left: 3px solid $card-red;
+            }
+        }
+
+
+    }
+
+    #formacao{
+        .titulo__formacao{
+            font-size: $tamanho-fonte;
+            font-family: $fonte;
+            text-align: center;
             padding: 1rem;
+        }
+
+        .sub--titulo__formacao{
+            font-size: $tamanho-fonte-subtitulo;
+            font-family: $fonte;
+            padding-left: 0.5rem;
+        }
+
+        .texto__formacao{
+            font-size: $tamanho-fonte;
+            font-family: $fonte;
+            padding-left: 2rem;
+        }
+    }
+    #contato{
+        .titulo__contato{
+            font-size: $tamanho-fonte-titulo;
+            font-family: $fonte;
+            text-align: center;    
+        }
+        .texto__contato{
+            font-size: $tamanho-fonte;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1rem;
+        }
+        .link__contato{
+            text-decoration: none;
+            color: $cor-texto;
+            font-size: $tamanho-fonte;
         }
     }
 }
