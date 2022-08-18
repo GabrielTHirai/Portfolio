@@ -4,18 +4,25 @@
     background-color: $cor-background;
     .apresentacao{
         display: flex;
-        padding: 5rem;
+        justify-content: space-between;
+        padding: 6rem 2rem;
         .titulo__apresentacao{
             flex-wrap: wrap;
             font-size: $tamanho-fonte-titulo;
             font-family: $fonte;
+            max-width: 680px;
+            &::after{
+                content: '|';
+                margin-left: 5px;
+                opacity: 1;
+                animation: pisca .7s infinite;
+            }
         }
         .imagem__apresentacao{
             width: 35%;
         }
     }
     #sobre__mim{
-
         .titulo__sobre--mim{       
             text-align: center;
             font-size: $tamanho-fonte-titulo;
@@ -28,6 +35,7 @@
             margin-left: 1rem;
             margin-right: 2rem;
         }
+
         .texto__sobre--mim{
             font-size: $tamanho-fonte;
             font-weight: bold;
@@ -151,3 +159,13 @@
         }
     }
 }
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
