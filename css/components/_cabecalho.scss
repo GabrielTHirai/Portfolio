@@ -33,7 +33,7 @@
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
     .cabecalho{
         padding-left: .2rem;
         .container{
@@ -46,6 +46,26 @@
                     .cabecalho__li{
                         .cabecalho__link{
                             font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px){
+    .cabecalho{
+        padding-left: .2rem;
+        .container{
+            .imagem__cabecalho{
+                display: none;
+            }
+            .cabecalho__nav{
+                .cabecalho__ul{
+                    .cabecalho__li{
+                        .cabecalho__link{
+                            font-size: 22px;
                         }
                     }
                 }
