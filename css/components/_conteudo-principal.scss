@@ -216,6 +216,33 @@
     }
 }
 
-@media screen {
-    
+@media screen and (max-width: 768px){
+    .conteudo__principal{
+        .apresentacao{
+            padding: 5rem 2rem;
+            .titulo__apresentacao{
+                flex-wrap: nowrap;
+                font-size: 2.5rem;
+            }
+            
+            .imagem__apresentacao{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .conteudo__principal{
+        .apresentacao{
+            .titulo__apresentacao{
+                flex-wrap: nowrap;
+                font-size: 2.8rem;
+            }
+            
+            .imagem__apresentacao{
+                width: 45%;
+            }
+        }
+    }
 }
