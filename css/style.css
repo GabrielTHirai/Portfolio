@@ -356,4 +356,15 @@ html, body {
   text-align: center;
   font-size: 1.5rem;
   font-family: "Roboto Mono", monospace;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .rodape .imagem__rodape {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .rodape .imagem__rodape {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
