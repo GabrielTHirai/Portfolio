@@ -229,6 +229,16 @@
                 display: none;
             }
         }
+        #sobre__mim{
+            .imagem__sobre--mim{
+                width: 30%;
+                margin-left: .5rem;
+                margin-right: 1rem;
+            }
+            .texto__sobre--mim{
+                font-size: 1.2rem;
+            }
+        }
     }
 }
 

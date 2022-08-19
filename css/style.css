@@ -268,6 +268,14 @@ html, body {
   .conteudo__principal .apresentacao .imagem__apresentacao {
     display: none;
   }
+  .conteudo__principal #sobre__mim .imagem__sobre--mim {
+    width: 30%;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+  }
+  .conteudo__principal #sobre__mim .texto__sobre--mim {
+    font-size: 1.2rem;
+  }
 }
 @media screen and (max-width: 1200px) {
   .conteudo__principal .apresentacao .titulo__apresentacao {
