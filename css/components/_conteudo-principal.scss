@@ -233,10 +233,11 @@
             .imagem__sobre--mim{
                 width: 30%;
                 margin-left: .5rem;
-                margin-right: 1rem;
+                margin-right: .5rem;
             }
             .texto__sobre--mim{
                 font-size: 1.2rem;
+                padding: 1rem;
             }
         }
 
@@ -288,7 +289,10 @@
         #sobre__mim{
             .imagem__sobre--mim{
                 margin-left: .2rem;
-                margin-right: 1rem;
+                margin-right: .5rem;
+            }
+            .texto__sobre--mim{
+                padding: 1rem;
             }
         }
         #projetos{
