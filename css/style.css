@@ -257,7 +257,7 @@ html, body {
     opacity: 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
   .conteudo__principal .apresentacao {
     padding: 5rem 2rem;
   }
@@ -282,8 +282,24 @@ html, body {
   .conteudo__principal #projetos .row .card {
     margin: 1rem;
   }
+  .conteudo__principal #formacao .card__formacao {
+    flex-wrap: wrap;
+  }
+  .conteudo__principal #formacao .card__formacao .card__sale, .conteudo__principal #formacao .card__formacao .card__alura {
+    max-width: 100%;
+    height: 800px;
+  }
+  .conteudo__principal #formacao .card__formacao .card__sale .sub--titulo__formacao, .conteudo__principal #formacao .card__formacao .card__alura .sub--titulo__formacao {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .conteudo__principal #formacao .card__formacao .card__sale .texto__formacao, .conteudo__principal #formacao .card__formacao .card__alura .texto__formacao {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .conteudo__principal .apresentacao .titulo__apresentacao {
     flex-wrap: nowrap;
     font-size: 2.8rem;
@@ -291,18 +307,37 @@ html, body {
   .conteudo__principal .apresentacao .imagem__apresentacao {
     width: 45%;
   }
+  .conteudo__principal #sobre__mim .imagem__sobre--mim {
+    margin-left: 0.2rem;
+    margin-right: 1rem;
+  }
   .conteudo__principal #projetos .row .card {
     padding: 1rem;
     max-height: 500px;
+    max-width: 50%;
   }
   .conteudo__principal #projetos .row .card .imagem__card {
     display: none;
   }
   .conteudo__principal #projetos .row .card .titulo__card {
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
   }
   .conteudo__principal #projetos .row .card .texto__card {
+    text-align: center;
+    font-size: 18px;
+  }
+  .conteudo__principal #formacao .card__formacao .card__sale, .conteudo__principal #formacao .card__formacao .card__alura {
+    max-width: 50%;
+    max-height: 800px;
+    margin: 2px;
+  }
+  .conteudo__principal #formacao .card__formacao .card__sale .sub--titulo__formacao, .conteudo__principal #formacao .card__formacao .card__alura .sub--titulo__formacao {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .conteudo__principal #formacao .card__formacao .card__sale .texto__formacao, .conteudo__principal #formacao .card__formacao .card__alura .texto__formacao {
+    font-size: 1.5rem;
     text-align: center;
   }
 }
