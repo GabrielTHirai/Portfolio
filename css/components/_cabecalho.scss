@@ -32,3 +32,24 @@
         }
     }
 }
+
+@media screen and (max-width: 800px){
+    .cabecalho{
+        padding-left: .2rem;
+        .container{
+            .imagem__cabecalho{
+                display: none;
+            }
+            .cabecalho__nav{
+                .cabecalho__ul{
+                    display: table-header-group;
+                    .cabecalho__li{
+                        .cabecalho__link{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

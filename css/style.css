@@ -34,6 +34,20 @@ html, body {
   color: #000000;
 }
 
+@media screen and (max-width: 800px) {
+  .cabecalho {
+    padding-left: 0.2rem;
+  }
+  .cabecalho .container .imagem__cabecalho {
+    display: none;
+  }
+  .cabecalho .container .cabecalho__nav .cabecalho__ul {
+    display: table-header-group;
+  }
+  .cabecalho .container .cabecalho__nav .cabecalho__ul .cabecalho__li .cabecalho__link {
+    font-size: 25px;
+  }
+}
 .conteudo__principal {
   background-color: #F3F3F3;
 }
