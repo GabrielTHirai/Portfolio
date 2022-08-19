@@ -276,6 +276,12 @@ html, body {
   .conteudo__principal #sobre__mim .texto__sobre--mim {
     font-size: 1.2rem;
   }
+  .conteudo__principal #projetos .row {
+    flex-wrap: wrap;
+  }
+  .conteudo__principal #projetos .row .card {
+    margin: 1rem;
+  }
 }
 @media screen and (max-width: 1200px) {
   .conteudo__principal .apresentacao .titulo__apresentacao {
@@ -284,6 +290,20 @@ html, body {
   }
   .conteudo__principal .apresentacao .imagem__apresentacao {
     width: 45%;
+  }
+  .conteudo__principal #projetos .row .card {
+    padding: 1rem;
+    max-height: 500px;
+  }
+  .conteudo__principal #projetos .row .card .imagem__card {
+    display: none;
+  }
+  .conteudo__principal #projetos .row .card .titulo__card {
+    font-size: 15px;
+    text-align: center;
+  }
+  .conteudo__principal #projetos .row .card .texto__card {
+    text-align: center;
   }
 }
 .rodape {

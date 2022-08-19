@@ -239,6 +239,15 @@
                 font-size: 1.2rem;
             }
         }
+
+        #projetos{
+            .row{
+                flex-wrap: wrap;
+                .card{
+                    margin: 1rem;
+                }
+            }
+        }
     }
 }
 
@@ -252,6 +261,25 @@
             
             .imagem__apresentacao{
                 width: 45%;
+            }
+        }
+
+        #projetos{
+            .row{
+                .card{
+                    padding: 1rem;
+                    max-height: 500px;
+                    .imagem__card{
+                        display: none;
+                    }
+                    .titulo__card{
+                        font-size: 15px;
+                        text-align: center;
+                    }
+                    .texto__card{
+                        text-align: center;
+                    }
+                }
             }
         }
     }
