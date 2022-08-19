@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>Portfólio</title>
 </head>
 <body>
@@ -27,6 +30,7 @@
 
         <section class="apresentacao">
             <h1 class="titulo__apresentacao">Seja bem vindo, me chamo Gabriel Hirai, e sou desenvolvedor front-end</h1>
+            
             <img src="./img/Developer activity-amico.svg" alt="Pessoa mexendo no seu notebook" class="imagem__apresentacao">
         </section>
 
@@ -92,26 +96,43 @@
         <section id="formacao">
             <h1 class="titulo__formacao">Formação</h1>
             
-            <h2 class="sub--titulo__formacao">Graduação em Análise e desenvolvimento de sistemas - Unisalesiano</h2>
-            <p class="texto__formacao">Graduação tecnólogo, com duração de 3 anos. Inicio em 2022, 
-                formação prevista para dez/2024. Curso de período noturno.
-            </p>
-            <p class="texto__formacao">Atualmente estou no segundo semestre, terminando o primeiro com notas excelentes.</p>
-            <p class="texto__formacao">Também sou representante da minha turma.</p>
-
-            <h2 class="sub--titulo__formacao">Curso de programação - Alura </h2>
-            <p class="texto__formacao">Curso de programação pela alura, realizei cursos voltados para front-end</p>
-            <p class="texto__formacao">Exemplos: HTML5, CSS3, Javascript, Typescript, SASS.</p>
-            <p class="texto__formacao">Pretendo continuar com o curso, adquirindo conhecimento no back-end também e em outras linguagens front-end</p>
-
+            <div class="card__formacao">
+                <div class="card__sale">
+                    <h2 class="sub--titulo__formacao">Graduação em Análise e desenvolvimento de sistemas - Unisalesiano</h2>
+                    <p class="texto__formacao">Graduação tecnólogo, com duração de 3 anos. Inicio em 2022, 
+                        formação prevista para dez/2024. Curso de período noturno.
+                    </p>
+                    <p class="texto__formacao">Atualmente estou no segundo semestre, terminando o primeiro com notas excelentes.</p>
+                    <p class="texto__formacao">Também sou representante da minha turma.</p>
+                </div>
+                
+                <div class="card__alura">
+                    <h2 class="sub--titulo__formacao">Curso de programação - Alura </h2>
+                    <p class="texto__formacao">Curso de programação pela alura, realizei cursos voltados para front-end</p>
+                    <p class="texto__formacao">Exemplos: HTML5, CSS3, Javascript, Typescript, SASS.</p>
+                    <p class="texto__formacao">Pretendo continuar com o curso, adquirindo conhecimento no back-end também e em outras linguagens front-end</p>
+                </div>
+            </div>
+        
         </section>
         <section id="contato">
             <h1 class="titulo__contato">Contato</h1>
     
             <p class="texto__contato">Telefone: +55 (18)991462505</p>
             <p class="texto__contato">Email: gabrielt.hirai@gmail.com</p>
-            <a href="github.com/gabrielthirai" class="link__contato">Github</a>
-            <a href="linkedin.com/in/gabriel-hirai/" class="link__contato">Linkedin</a>
+            <div class="container__contato">
+                <a href="https://github.com/gabrielthirai"  target="_blank" class="link__git">
+                    <img src="./img/github-svgrepo-com.svg" alt="Logo do github" class="imagem__git">
+                </a>
+
+                <a href="linkedin.com/in/gabriel-hirai/"  target="_blank" class="link__linkedin">
+                    <img src="./img/linkedin-svgrepo-com.svg" alt="Logo do Linkedin" class="link__linkedin">
+                </a>
+
+            </div>
+           
+
+           
         </section>
     </main>
 
@@ -121,6 +142,5 @@
     </footer>
 
     <script src="./dist/js/efeitoescrever.js" type="module"></script>
-    <script src="./dist/js/animacaofoto.js" ></script>
 </body>
 </html>

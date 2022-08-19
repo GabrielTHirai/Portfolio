@@ -20,8 +20,9 @@
                         text-decoration: none;
                         margin: 1rem;
                         color: $cor-texto2;
-                        font-size: $tamanho-fonte;
+                        font-size: 20px;
                         font-weight: bold;
+                        font-family: $fonte;
                         &:hover{
                             color: $cor-texto;
                         }

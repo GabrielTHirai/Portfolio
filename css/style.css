@@ -26,8 +26,9 @@ html, body {
   text-decoration: none;
   margin: 1rem;
   color: #f2f2f2;
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
+  font-family: "Roboto Mono", monospace;
 }
 .cabecalho .container .cabecalho__nav .cabecalho__ul .cabecalho__li .cabecalho__link:hover {
   color: #000000;
@@ -44,7 +45,7 @@ html, body {
 .conteudo__principal .apresentacao .titulo__apresentacao {
   flex-wrap: wrap;
   font-size: 3rem;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
   max-width: 680px;
 }
 .conteudo__principal .apresentacao .titulo__apresentacao::after {
@@ -60,7 +61,7 @@ html, body {
 .conteudo__principal #sobre__mim .titulo__sobre--mim {
   text-align: center;
   font-size: 3rem;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
   margin-bottom: 2rem;
 }
 .conteudo__principal #sobre__mim .imagem__sobre--mim {
@@ -72,25 +73,26 @@ html, body {
 .conteudo__principal #sobre__mim .texto__sobre--mim {
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
 }
 .conteudo__principal #experiencia {
   clear: left;
 }
 .conteudo__principal #experiencia .titulo__experiencia {
   font-size: 3rem;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
   text-align: center;
 }
 .conteudo__principal #experiencia .texto__experiencia {
   font-size: 1.5rem;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   padding: 3rem 1rem;
+  text-align: center;
 }
 .conteudo__principal #projetos .titulo__projetos {
   text-align: center;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
   font-size: 3rem;
 }
 .conteudo__principal #projetos .row {
@@ -120,12 +122,12 @@ html, body {
   max-height: 60px;
 }
 .conteudo__principal #projetos .row .card .titulo__card {
-  font-size: 1.5rem;
-  font-family: cursive;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
 }
 .conteudo__principal #projetos .row .card .texto__card {
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
 }
 .conteudo__principal #projetos .row .card .link__card {
   text-decoration: none;
@@ -134,44 +136,83 @@ html, body {
   justify-content: center;
   align-items: center;
   padding: 0.2rem;
-  border: 2px solid #B61111;
-  font-family: cursive;
-  font-size: 20px;
-  background-color: #B61111;
+  border: 2px solid #0080FF;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  background-color: #0080FF;
 }
 .conteudo__principal #projetos .row .hotel, .conteudo__principal #projetos .row .aluramidi, .conteudo__principal #projetos .row .negociacoesTS, .conteudo__principal #projetos .row .flash {
-  border-left: 3px solid #B61111;
+  border-left: 3px solid #0080FF;
 }
 .conteudo__principal #formacao .titulo__formacao {
-  font-size: 1.5rem;
-  font-family: cursive;
+  font-size: 3rem;
+  font-family: "Roboto Mono", monospace;
   text-align: center;
   padding: 1rem;
 }
-.conteudo__principal #formacao .sub--titulo__formacao {
+.conteudo__principal #formacao .card__formacao {
+  display: flex;
+  justify-content: space-around;
+}
+.conteudo__principal #formacao .card__formacao .card__sale, .conteudo__principal #formacao .card__formacao .card__alura {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding-top: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin: 5px;
+  max-width: 40%;
+  max-height: 500px;
+  transition: all 0.3s ease-out;
+}
+.conteudo__principal #formacao .card__formacao .card__sale .sub--titulo__formacao, .conteudo__principal #formacao .card__formacao .card__alura .sub--titulo__formacao {
   font-size: 2rem;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
   padding-left: 0.5rem;
 }
-.conteudo__principal #formacao .texto__formacao {
-  font-size: 1.5rem;
-  font-family: cursive;
+.conteudo__principal #formacao .card__formacao .card__sale .texto__formacao, .conteudo__principal #formacao .card__formacao .card__alura .texto__formacao {
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
   padding-left: 2rem;
+}
+.conteudo__principal #contato {
+  padding: 2rem;
 }
 .conteudo__principal #contato .titulo__contato {
   font-size: 3rem;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
   text-align: center;
 }
 .conteudo__principal #contato .texto__contato {
   font-size: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Mono", monospace;
   padding: 1rem;
+  text-align: center;
 }
-.conteudo__principal #contato .link__contato {
-  text-decoration: none;
-  color: #000000;
-  font-size: 1.5rem;
+.conteudo__principal #contato .container__contato {
+  display: flex;
+  justify-content: space-around;
+}
+.conteudo__principal #contato .container__contato .link__git {
+  width: 80px;
+}
+.conteudo__principal #contato .container__contato .link__git .imagem__git {
+  width: 100%;
+}
+.conteudo__principal #contato .container__contato .link__git:hover {
+  width: 85px;
+  transition: 0.5s;
+}
+.conteudo__principal #contato .container__contato .link__linkedin {
+  width: 80px;
+}
+.conteudo__principal #contato .container__contato .link__linkedin .imagem__linkedin {
+  width: 100%;
+}
+.conteudo__principal #contato .container__contato .link__linkedin:hover {
+  width: 85px;
+  transition: 0.5s;
 }
 
 @-webkit-keyframes pisca {
@@ -205,5 +246,5 @@ html, body {
   color: #f2f2f2;
   text-align: center;
   font-size: 1.5rem;
-  font-family: cursive;
+  font-family: "Roboto Mono", monospace;
 }/*# sourceMappingURL=style.css.map */

@@ -21,6 +21,9 @@
         .imagem__apresentacao{
             width: 35%;
         }
+
+
+
     }
     #sobre__mim{
         .titulo__sobre--mim{       
@@ -55,6 +58,7 @@
             font-family: $fonte;
             font-weight: bold;
             padding: 3rem 1rem;
+            text-align: center;
         }
     }
 
@@ -93,7 +97,7 @@
                 }
 
                 .titulo__card{
-                    font-size: 1.5rem;
+                    font-size: 20px;
                     font-family: $fonte;
                     font-weight: bold;
                 }
@@ -107,14 +111,14 @@
                     justify-content: center;
                     align-items: center;
                     padding: .2rem;
-                    border: 2px solid $card-red;
+                    border: 2px solid $cor-principal;
                     font-family: $fonte;
-                    font-size: 20px;
-                    background-color: $card-red;
+                    font-size: 15px;
+                    background-color: $cor-principal;
                 }
             }
             .hotel,.aluramidi,.negociacoesTS,.flash{
-                border-left: 3px solid $card-red;
+                border-left: 3px solid $cor-principal;
             }
         }
 
@@ -122,26 +126,47 @@
     }
 
     #formacao{
+
         .titulo__formacao{
-            font-size: $tamanho-fonte;
+            font-size: $tamanho-fonte-titulo;
             font-family: $fonte;
             text-align: center;
             padding: 1rem;
         }
 
-        .sub--titulo__formacao{
-            font-size: $tamanho-fonte-subtitulo;
-            font-family: $fonte;
-            padding-left: 0.5rem;
+        .card__formacao{
+
+            display: flex;
+            justify-content: space-around;
+            .card__sale,.card__alura{
+                border-radius: 5px;
+                box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+                padding-top: 3px;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                margin: 5px;
+                max-width: 40%;
+                max-height: 500px;
+                transition: all 0.3s ease-out;
+                .sub--titulo__formacao{
+                    font-size: $tamanho-fonte-subtitulo;
+                    font-family: $fonte;
+                    padding-left: 0.5rem;
+                }
+        
+                .texto__formacao{
+                    font-size: 20px;
+                    font-family: $fonte;
+                    padding-left: 2rem;
+                }
+            }
         }
 
-        .texto__formacao{
-            font-size: $tamanho-fonte;
-            font-family: $fonte;
-            padding-left: 2rem;
-        }
+        
     }
     #contato{
+        padding: 2rem;
         .titulo__contato{
             font-size: $tamanho-fonte-titulo;
             font-family: $fonte;
@@ -149,14 +174,36 @@
         }
         .texto__contato{
             font-size: $tamanho-fonte;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: $fonte;
             padding: 1rem;
+            text-align: center;
         }
-        .link__contato{
-            text-decoration: none;
-            color: $cor-texto;
-            font-size: $tamanho-fonte;
+
+        .container__contato{
+            display: flex;
+            justify-content: space-around;
+            .link__git{
+                width: 80px;
+                .imagem__git{
+                    width: 100%;
+                }
+                &:hover{
+                    width: 85px;
+                    transition: .5s;
+                }
+            }
+            .link__linkedin{
+                width: 80px;
+                .imagem__linkedin{
+                    width: 100%;
+                }
+                &:hover{
+                    width: 85px;
+                    transition: .5s;
+                }
+            }
         }
+
     }
 }
 
