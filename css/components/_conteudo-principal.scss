@@ -188,8 +188,8 @@
                     width: 100%;
                 }
                 &:hover{
-                    width: 85px;
-                    transition: .5s;
+                    transform: rotate(360deg);
+                    transition: .2s;
                 }
             }
             .link__linkedin{
@@ -198,8 +198,8 @@
                     width: 100%;
                 }
                 &:hover{
-                    width: 85px;
-                    transition: .5s;
+                    transform: rotate(360deg);
+                    transition: .2s;
                 }
             }
         }
@@ -298,8 +298,8 @@
         #projetos{
             .row{
                 .card{
-                    padding: 1rem;
-                    max-height: 500px;
+                    padding: .5rem;
+                    max-height: 200px;
                     max-width: 50%;
                     .imagem__card{
                         display: none;

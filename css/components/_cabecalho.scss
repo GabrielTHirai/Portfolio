@@ -25,6 +25,7 @@
                         font-family: $fonte;
                         &:hover{
                             color: $cor-texto;
+                            transition: 1s;
                         }
                     }
                 }
