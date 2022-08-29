@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^4.8.2"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server --baseDir=dist",
+    "start": "concurrently \"npm run watch\" \"npm run server\"",
+    "compile": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielTHirai/Portfolio.git"
+  },
+  "author": "Gabriel Hirai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielTHirai/Portfolio/issues"
+  },
+  "homepage": "https://github.com/GabrielTHirai/Portfolio#readme",
+  "description": ""
+}
