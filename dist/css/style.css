@@ -227,8 +227,8 @@ html, body {
   width: 100%;
 }
 .conteudo__principal #contato .container__contato .link__git:hover {
+  transition: 1s;
   transform: rotate(360deg);
-  transition: 0.2s;
 }
 .conteudo__principal #contato .container__contato .link__linkedin {
   width: 80px;
@@ -237,8 +237,8 @@ html, body {
   width: 100%;
 }
 .conteudo__principal #contato .container__contato .link__linkedin:hover {
-  transform: rotate(360deg);
-  transition: 0.2s;
+  transition: 1s;
+  transform: rotate(-360deg);
 }
 
 @-webkit-keyframes pisca {

@@ -1,4 +1,4 @@
-function typeWriter(elemento) {
+function typeWriter(elemento:InnerHTML) {
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
     textoArray.forEach((letra, i) => {

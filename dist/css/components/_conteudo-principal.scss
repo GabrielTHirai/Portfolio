@@ -188,8 +188,8 @@
                     width: 100%;
                 }
                 &:hover{
+                    transition: 1s;
                     transform: rotate(360deg);
-                    transition: .2s;
                 }
             }
             .link__linkedin{
@@ -198,8 +198,8 @@
                     width: 100%;
                 }
                 &:hover{
-                    transform: rotate(360deg);
-                    transition: .2s;
+                    transition: 1s;
+                    transform: rotate(-360deg);
                 }
             }
         }
