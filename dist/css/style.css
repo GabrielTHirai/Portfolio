@@ -93,12 +93,13 @@ html, body {
   float: left;
   width: 17%;
   margin-left: 1rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 .conteudo__principal #sobre__mim .texto__sobre--mim {
   font-size: 1.5rem;
   font-weight: bold;
   font-family: "Roboto Mono", monospace;
+  padding-left: 1rem;
 }
 .conteudo__principal #experiencia {
   clear: left;
