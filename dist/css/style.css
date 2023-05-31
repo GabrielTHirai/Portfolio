@@ -279,7 +279,7 @@ html, body {
     opacity: 0;
   }
 }
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 200px) and (max-width: 768px) {
   .conteudo__principal .apresentacao {
     padding: 5rem 2rem;
   }
@@ -291,9 +291,7 @@ html, body {
     display: none;
   }
   .conteudo__principal #sobre__mim .imagem__sobre--mim {
-    width: 0%;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    display: none;
   }
   .conteudo__principal #sobre__mim .texto__sobre--mim {
     font-size: 1rem;
@@ -301,7 +299,7 @@ html, body {
     font-weight: 500;
   }
   .conteudo__principal #experiencia .experiencia__pref .imagem__experiencia {
-    width: 0%;
+    display: none;
   }
   .conteudo__principal #experiencia .experiencia__pref .texto__experiencia {
     font-size: 20px;

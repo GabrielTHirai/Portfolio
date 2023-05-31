@@ -247,7 +247,7 @@
     }
 }
 
-@media screen and (min-width:300px) and (max-width: 768px){
+@media screen and (min-width:200px) and (max-width: 768px){
     .conteudo__principal{
         .apresentacao{
             padding: 5rem 2rem;
@@ -262,9 +262,7 @@
         }
         #sobre__mim{
             .imagem__sobre--mim{
-                width: 0%;
-                margin-left: .5rem;
-                margin-right: .5rem;
+                display: none;
             }
             .texto__sobre--mim{
                 font-size: 1rem;
@@ -276,7 +274,7 @@
         #experiencia{
             .experiencia__pref{
                 .imagem__experiencia{
-                    width: 0%;
+                    display: none;
                 }
                 .texto__experiencia{
                     font-size: 20px;
